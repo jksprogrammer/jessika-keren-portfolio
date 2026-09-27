@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jessika Keren — Computer Science Engineering student exploring AI, software development and creative technology." />
+  <title>Jessika Keren — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand"><span class="brand-mark">JK</span><span>Jessika Keren</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span>◐</span> <b>Dark</b></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> My work</div>
+        <h1>Technology<span>.</span></h1>
+        <p class="hero-intro">I'm <strong>Jessika Keren</strong>, a Computer Science Engineering student exploring <b>AI, software development</b> and technology that solves real problems.</p>
+        <div class="hero-actions">
+          <a class="btn dark-btn magnetic" href="#projects">Explore my work <span>→</span></a>
+          <a class="btn light-btn magnetic" href="#contact">Let's connect</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="portrait-frame">
+          <div class="portrait-backdrop"></div>
+          <img src="profile.jpg" alt="Jessika Keren portrait" class="profile-photo" />
+          <div class="portrait-orbit orbit-a"></div>
+          <div class="portrait-orbit orbit-b"></div>
+          <span class="spark spark-a">✦</span><span class="spark spark-b">✧</span>
+          <div class="building-tag">BUILDING <span>→</span></div>
+          <div class="portrait-caption"><span>CURIOUS · CREATIVE · BUILDING</span><span>LEARNING · GROWING · EXPLORING</span></div>
+        </div>
+        <div class="photo-meta"><span>CH. JESSIKA KEREN</span><span>01 — PERSONAL PORTFOLIO</span></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-label reveal"><span></span> Featured projects</div>
+      <div class="project-grid">
+        <article class="project-card sky reveal" data-project="skysage">
+          <div class="card-top"><span>01</span><span>AI · ML · SATELLITE INTELLIGENCE · GEOSPATIAL</span></div>
+          <div><h3>SkySage</h3><p>An AI-powered satellite intelligence system for turning environmental and satellite signals into explainable disaster-risk insights.</p></div>
+          <button class="round-arrow" aria-label="Open SkySage">→</button>
+        </article>
+        <article class="project-card monastery reveal delay-1" data-project="monastery">
+          <div class="card-top"><span>02</span><span>WEB · TRAVEL · HERITAGE</span></div>
+          <div><h3>Monastery360</h3><p>A digital tourism and preservation platform to explore Sikkim's monasteries with 360° tours, maps and intelligent discovery.</p></div>
+          <button class="round-arrow" aria-label="Open Monastery360">→</button>
+        </article>
+        <article class="project-card bug reveal delay-2" data-project="bugtrack">
+          <div class="card-top"><span>03</span><span>REACT · EXPRESS · MONGODB</span></div>
+          <div><h3>BugTrack</h3><p>A full-stack bug tracking platform with roles, comments, activities, Kanban workflow and AI assistance.</p></div>
+          <button class="round-arrow" aria-label="Open BugTrack">→</button>
+        </article>
+        <article class="project-card training reveal" data-project="aimers">
+          <div class="card-top"><span>04</span><span>AI · CYBERSECURITY · INDUSTRIAL TRAINING</span></div>
+          <div><h3>AIMERS &amp; Indian Servers</h3><p>An internship cum industrial training program in Artificial Intelligence &amp; Cyber Security.</p></div>
+          <button class="round-arrow" aria-label="Open AIMERS project">→</button>
+        </article>
+        <article class="project-card cognifyz reveal delay-1" data-project="cognifyz">
+          <div class="card-top"><span>05</span><span>DATA VISUALIZATION · EXCEL</span></div>
+          <div><h3>Cognifyz</h3><p>Created interactive dashboards using Excel 365 with pivot tables, charts, slicers and lookups.</p></div>
+          <button class="round-arrow" aria-label="Open Cognifyz project">→</button>
+        </article>
+        <article class="project-card codsoft reveal delay-2" data-project="codsoft">
+          <div class="card-top"><span>06</span><span>PYTHON · MINI PROJECTS</span></div>
+          <div><h3>CodSoft</h3><p>Built a To-Do List, Calculator and Rock-Paper-Scissors applications using Python and Tkinter.</p></div>
+          <button class="round-arrow" aria-label="Open CodSoft project">→</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label reveal"><span></span> 02 — About me</div>
+      <div class="about-grid">
+        <div class="about-title reveal"><h2>Ideas first.<br><em>Technology.</em></h2></div>
+        <div class="about-copy reveal delay-1">
+          <p class="large">I like understanding a problem before choosing the technology. My work sits around <strong>AI, full-stack development and intelligent software.</strong></p>
+          <p>I'm currently completing my B.Tech in Computer Science Engineering. I learn by building — experimenting with AI concepts, web applications, data-driven ideas and practical software.</p>
+          <div class="about-stats"><div><strong data-count="3">0</strong><span>Featured builds</span></div><div><strong data-count="4">0</strong><span>Core areas</span></div><div><strong data-count="2027">0</strong><span>Expected graduation</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-label reveal"><span></span> 03 — Skills</div>
+      <div class="skills-head reveal"><h2>Learning,<br><em>building, exploring.</em></h2></div>
+      <div class="skill-list">
+        <div class="skill-row reveal"><span>01</span><h3>Programming</h3><p>Python · JavaScript · SQL · Java</p><b>↗</b></div>
+        <div class="skill-row reveal"><span>02</span><h3>AI &amp; Machine Learning</h3><p>Generative AI · RAG · Computer Vision · AI Agents</p><b>↗</b></div>
+        <div class="skill-row reveal"><span>03</span><h3>Web Development</h3><p>HTML · CSS · React · Node.js · Express · MongoDB</p><b>↗</b></div>
+        <div class="skill-row reveal"><span>04</span><h3>Tools &amp; Workflow</h3><p>Git · GitHub · VS Code · Excel · REST APIs</p><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="section-label reveal"><span></span> 05 — Journey</div>
+      <div class="journey-grid">
+        <div class="journey-title reveal"><h2>Learning never<br><em>really stops.</em></h2><p>Every project, internship and experiment adds another layer to the developer I am becoming.</p></div>
+        <div class="timeline">
+          <div class="timeline-item reveal"><span>2025</span><div><h3>Python &amp; Data Visualization</h3><p>Programming fundamentals, Python practice and interactive Excel dashboards.</p></div></div>
+          <div class="timeline-item reveal"><span>2025 — 2026</span><div><h3>Web Development</h3><p>React, Node.js, Express, MongoDB and full-stack application workflows.</p></div></div>
+          <div class="timeline-item reveal"><span>2026</span><div><h3>AI &amp; Cybersecurity</h3><p>Exploring Generative AI, RAG, intelligent agents and cybersecurity concepts.</p></div></div>
+          <div class="timeline-item reveal"><span>NOW</span><div><h3>Building What's Next</h3><p>Developing SkySage and expanding toward AI-focused software development.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-box reveal"><div class="contact-bg">JK</div><p class="eyebrow">06 — Get in touch</p><h2>Let's make an idea<br><em>come alive.</em></h2><p>Project, collaboration, internship opportunity or simply a conversation about technology — my inbox is open.</p><a class="email" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a><div class="socials"><a href="https://github.com/jksprogrammer" target="_blank">GitHub ↗</a><a href="#">LinkedIn ↗</a><a href="#">Instagram ↗</a></div></div>
+    </section>
+
+    <section class="closing section"><p>STAY CURIOUS · KEEP BUILDING</p><h2>Ideas are only<br><em>the beginning.</em></h2><div>✦</div></section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Jessika Keren</span><span>Made with curiosity &amp; code ✦</span></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="modal-kicker" id="modalKicker"></div>
+      <h2 id="modalTitle"></h2>
+      <p class="modal-summary" id="modalSummary"></p>
+      <div class="modal-grid">
+        <div><span>THE IDEA</span><p id="modalIdea"></p></div>
+        <div><span>WHAT IT DOES</span><p id="modalDoes"></p></div>
+        <div><span>FEATURES</span><p id="modalFeatures"></p></div>
+        <div><span>TECHNOLOGY</span><p id="modalTech"></p></div>
+        <div><span>WHY IT MATTERS</span><p id="modalWhy"></p></div>
+        <div><span>NEXT STEP</span><p id="modalNext"></p></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
